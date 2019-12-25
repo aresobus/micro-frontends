@@ -11,12 +11,13 @@
 ```
 
 #### App build with:
-*Single-SPA (a javascript framework for front-end microservices) 
-*Angular
-*React
+
+* Single-SPA (a javascript framework for front-end microservices) 
+* Angular
+* React
 
 Please find detailed documentation here:
-https://single-spa.js.org/
+[ https://single-spa.js.org/ ]
 
 
 Have fun!
