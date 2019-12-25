@@ -10,9 +10,10 @@
 3. navigate to http://localhost:8080/
 ```
 
-App build with Single-SPA (a javascript framework for front-end microservices) 
-Angular
-React
+#### App build with:
+*Single-SPA (a javascript framework for front-end microservices) 
+*Angular
+*React
 
 Please find detailed documentation here:
 https://single-spa.js.org/
