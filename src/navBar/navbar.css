@@ -1,0 +1,76 @@
+nav {
+    height: 100%;
+    width: 70px;
+    z-index: 999;
+    top: 0;
+    position: absolute;
+    text-align: center;
+    background-color: #333;
+}
+nav ul li .waves-effect {
+ line-height: 11px;font-size: 9px;
+    padding: 10px;
+    color: #fff;
+}
+
+nav ul li .waves-effect:hover {
+   color: #a4a4a2;
+    background:rgba(255,255,255,0.2);
+}
+
+nav ul li .waves-effect:hover .material-icons, .waves-effect{
+    color: #fff;
+}
+
+i.right {
+    float: none !important;
+    margin-left: 0px !important;
+}
+
+right {
+    float: none !important;
+    margin-left: 0px !important;
+}
+
+nav ul li a .material-icons{
+    color: #fff;
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 1;
+    display: inline-block;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+    height: 32px;
+}
+
+nav ul li a span{
+    font-size: 9px;
+}
+nav ul li a.disabled {
+    pointer-events: none;
+    color: #666;
+}
+
+nav ul li a.disabled .material-icons{
+    pointer-events: none;
+    color: #666;
+}
+
+.react-span {
+    font-size: 15px;
+    line-height: 2em;
+}
+
+.framework-info {
+    background: linear-gradient(to bottom, #052250 0%,#054480 0%);
+    pointer-events: none;
+    font-family: "DIN Next W01", Roboto, "Helvetica Neue", sans-serif;
+}
+
+
+
+
+
+

@@ -1,0 +1,131 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+}
+
+#home {
+    overflow: hidden;
+}
+
+.fake-top-items-wrapper {
+    display: flex;
+    margin: 10px 20px 90px 90px;
+    align-items: center;
+
+}
+
+.daisy-span {
+    margin-left: auto;
+    text-transform: none;
+    font-size: 24px;
+    color: #fff;
+}
+
+.framework-indicator {
+    text-transform: none;
+    background: none;
+}
+
+.fake-top-items-wrapper .material-icons  {
+    color: #ccc;
+}
+
+.fake-top-items-wrapper .md-button {
+    color: #039be5;
+    display: flex !important;
+    line-height: 30px;
+    min-height: 30px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    user-select: none;
+    position: relative;
+    outline: none;
+    border: 0;
+    display: inline-block;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 6px;
+    margin: 6px 8px;
+    background: transparent;
+    white-space: nowrap;
+    min-width: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    text-decoration: none;
+    cursor: pointer;
+    overflow: hidden;
+    font-weight: 400;
+    background: rgba(0,0,0, 0.13);
+}
+
+.tabs-nav-wrapper {
+    width: 100%;
+    border-bottom: solid 2px rgba(255,255,255,.1);
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    background: linear-gradient(to bottom, #052250 0%,#054480 20%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#052250', endColorstr='#054480',GradientType=0 );
+    font-family: "DIN Next W01", Roboto, "Helvetica Neue", sans-serif;
+    font-weight: 300;
+}
+
+.tabs-nav {
+    justify-content: center;
+    max-width: 700px;
+    margin: 0 auto 10px;
+    border-bottom: 2px solid #ffffff;
+    border-color: rgba(255,255,255,0.3);
+}
+
+.tabs-nav li{
+    padding-bottom: 0px;
+}
+
+.title-wrapper {
+    display: flex;
+    flex-direction: column;
+    color: rgba(255,255,255,.3);
+    margin: 0 1em -.1em;
+
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-align: center;
+}
+
+.title-wrapper:hover {
+    color: #ffffff;
+}
+
+.fake-top {
+    height: 120px;
+   max-height: 150px;
+}
+
+.content {
+    background-color: #fff !important;
+    height: 100%;
+    margin-left: 70px;
+}
+
+
+.assets-count {
+    font-size: .73rem !important;
+    color: rgba(255,255,255,.3);
+    margin: 0 1em -.1em;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}
+
+.main-image {
+    max-width:100%;
+    max-height:100%;
+}
+
+
+
