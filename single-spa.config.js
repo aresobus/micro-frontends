@@ -8,7 +8,7 @@ function pathPrefix(prefix) {
 
 registerApplication(
     'angularJS',
-    () => import ('./src/angularJS/angularJS.app.js'),
+    () => import('./src/angularJS/angularJS.app.js'),
     () => true
 );
 
