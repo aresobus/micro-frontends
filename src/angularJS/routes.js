@@ -6,7 +6,7 @@ import './expanded.component.js';
 
 angular
     .module('angularJS-app')
-    .config(($stateProvider, $locationProvider) => {
+    .config(["$stateProvider", "$locationProvider", ($stateProvider, $locationProvider) => {
         $locationProvider.html5Mode({
             enabled: true,
             requireBase: false,
@@ -20,4 +20,4 @@ angular
                 url: '/expanded',
                 template: '<expanded />',
             })
-    });
+    }]);
